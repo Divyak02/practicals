@@ -11,6 +11,8 @@ git push ...to upload your code to github
 To link a github account:
 Create empty repo and get http link
 git remote add origin <github http link>
+
+only for first time: git push origin main --set-upstream
 git push ...to upload code to github
 git pull ...to get code from github to your laptop
 
