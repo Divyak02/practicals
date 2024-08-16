@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.block-labels{
+    display: block;
+    font-weight: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h1{
+    text-align: center;
+}
+form{
+    background-color: rgb(163, 219, 253);
+    border-radius: 5%;
+}
+.container{
+    background-image: linear-gradient(to right,#020024, #090979,#00d4ff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+#login-checkbox{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: gray;
+}
+#sign-btn{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 1px;
+}
+#sign-btn:hover{
+    background-color: rgb(31, 139, 31);
+}
+.sub-container{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 15px black;
+    background-color: #b4ebf6;
+}
