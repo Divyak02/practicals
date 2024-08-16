@@ -1,0 +1,18 @@
+To create a git folder:
+git init
+continue steps of updating
+
+To update the folder:
+git status
+git add .
+git commit -m "Any message" ...to save your code to git
+git push ...to upload your code to github
+
+To link a github account:
+Create empty repo and get http link
+git remote add origin <github http link>
+git push ...to upload code to github
+git pull ...to get code from github to your laptop
+
+If you move to a new laptop:
+git clone <github http link> <new_folder_name>
